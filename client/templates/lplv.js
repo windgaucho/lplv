@@ -14,4 +14,8 @@ Template.lplv.rendered = function() {
       });
     */
   });
+  $(function() {
+    //    fancybox
+    jQuery(".fancybox").fancybox();
+  });  
 };

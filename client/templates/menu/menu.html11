@@ -1,0 +1,56 @@
+<template name="menu">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="#principal">
+              <i class="icono fa fa-home fa-fw"></i>
+              <span class="text">INICIO</span>
+            </a>
+          </li>
+          <li>
+            <a href="#slide-2">
+              <i class="icono fa fa-user fa-fw"></i>
+              <span class="text">NOSOTROS</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icono fa fa-briefcase fa-fw"></i>
+              <span class="text">PROYECTOS</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icono fa fa-file-image-o fa-fw"></span>
+              <span class="text">GALERIA</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icono fa fa-file-video-o fa-fw"></span>
+              <span class="text">VIDEOS</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icono fa fa-envelope fa-fw"></span>
+              <span class="text">CONTACTO</span>
+            </a>
+          </li>
+        </ul>
+        <div class="row" style="position: relative;">
+          <div class="col-sm-2 menu-barra"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
